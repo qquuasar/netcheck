@@ -1,0 +1,21 @@
+# Go build artifacts
+/netcheck
+/bin/
+/dist/
+
+# Test/cache
+*.test
+*.out
+coverage.out
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Env/secrets
+.env
+*.key
+*.pem
